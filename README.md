@@ -5,7 +5,7 @@ Reactive urls that work with IE8/9 and modern pushState browsers.
 ## Example
 
 ```javascript
-Deps.autorun(function () {
+Tracker.autorun(function () {
   // returns a "location" like object with all of the url parts
   var current = Iron.Location.get();
 
